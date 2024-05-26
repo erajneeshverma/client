@@ -20,7 +20,7 @@ export default function SignUp() {
     console.log(formData);
     try {
       setLoading(true);
-      const res = await fetch(`${apiUrl}/api/auth/signup`, {
+      const res = await fetch(`/api/auth/signup`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
