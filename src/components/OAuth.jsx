@@ -3,7 +3,6 @@ import { app } from '../firebase';
 import { useDispatch } from 'react-redux';
 import { signInSuccess } from '../redux/user/userSlice';
 import { useNavigate } from 'react-router-dom';
-const apiUrl = process.env.REACT_APP_API_URL;
 
 export default function OAuth() {
   const dispatch = useDispatch();

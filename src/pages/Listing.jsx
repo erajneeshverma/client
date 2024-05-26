@@ -15,7 +15,6 @@ import {
   FaShare,
 } from 'react-icons/fa';
 import Contact from '../components/Contact';
-const apiUrl = process.env.REACT_APP_API_URL;
 
 // https://sabe.io/blog/javascript-format-numbers-commas#:~:text=The%20best%20way%20to%20format,format%20the%20number%20with%20commas.
 

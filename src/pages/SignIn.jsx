@@ -7,7 +7,6 @@ import {
   signInFailure,
 } from '../redux/user/userSlice';
 import OAuth from '../components/OAuth';
-const apiUrl = process.env.REACT_APP_API_URL;
 
 export default function SignIn() {
   const [formData, setFormData] = useState({});

@@ -8,7 +8,6 @@ import {
 import { app } from '../firebase';
 import { useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom';
-const apiUrl = process.env.REACT_APP_API_URL;
 
 export default function CreateListing() {
   const { currentUser } = useSelector((state) => state.user);

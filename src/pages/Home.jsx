@@ -5,7 +5,6 @@ import { Navigation } from 'swiper/modules';
 import SwiperCore from 'swiper';
 import 'swiper/css/bundle';
 import ListingItem from '../components/ListingItem';
-const apiUrl = process.env.REACT_APP_API_URL;
 
 export default function Home() {
   const [offerListings, setOfferListings] = useState([]);
